@@ -4430,26 +4430,10 @@ instantsearch.css@7.3.1:
   resolved "https://registry.yarnpkg.com/instantsearch.css/-/instantsearch.css-7.3.1.tgz#7ab74a8f355091ae040947a9cf5438f379026622"
   integrity sha512-/kaMDna5D+Q9mImNBHEhb9HgHATDOFKYii7N1Iwvrj+lmD9gBJLqVhUw67gftq2O0QI330pFza+CRscIwB1wQQ==
 
-instantsearch.js@3.4.0:
+instantsearch.js@3.4.0, instantsearch.js@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-3.4.0.tgz#8dd687789747d17e60c2335b50a15b4a3e20a3b5"
   integrity sha512-lEZqEZP6fppKBFnE0S4dnA0NN4ytKADtktLZsVD5fhbgH15+VDsK4JST1UjpM/bMLcmpoCRYzIehitp7l8SNAg==
-  dependencies:
-    algoliasearch-helper "^2.26.0"
-    classnames "^2.2.5"
-    events "^1.1.0"
-    hogan.js "^3.0.2"
-    lodash "^4.17.5"
-    preact "^8.3.0"
-    preact-compat "^3.18.0"
-    preact-rheostat "^2.1.1"
-    prop-types "^15.5.10"
-    qs "^6.5.1"
-
-instantsearch.js@^3.1.1:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-3.2.0.tgz#9569ff137a68a4d8d5e16c8d7cb815dd838f3a3f"
-  integrity sha512-WVvszJWJalI3xkd5dlbPbm5Jgp9I+XctrS/CV5e2IejT53ggiqbuLc4tpjlmqbsD0TZZqflSfTEbdQRarctQGg==
   dependencies:
     algoliasearch-helper "^2.26.0"
     classnames "^2.2.5"
@@ -8430,13 +8414,13 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.1.tgz#b2d3d95402a811602380783ea4f566eb875569a2"
   integrity sha512-AA86yKZ5uOKz87/q1UpngEXhbRkaYg1b7HMMVRobNV1IVKqZe8oLIzo6iMocVwZXnYitlGwf2k4ZRLOZlS8oPQ==
 
-vue-instantsearch@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-2.0.1.tgz#36cf3392e6c3742d943b9a8eebfc90f8b8af66d3"
-  integrity sha512-q1NMvX9HybRASsh4phsW7jR4p53ZxUkAOheBFmeg/On212FwXp8tshUoHvrVagFMb3ATiqUkKD+REa3MaGqncQ==
+vue-instantsearch@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-2.1.0.tgz#bd38394e24c2b3f9326c5bbca8370346d9177a03"
+  integrity sha512-jLJYlXc84a2+7ER9DqBoom1isdPQsRCnaKA2SWaX7wqYQcCR8CKtnRs6+XCYPtr/mKnX3XH8V0INJ3UTbbNj9w==
   dependencies:
     algoliasearch-helper "^2.26.1"
-    instantsearch.js "^3.1.1"
+    instantsearch.js "^3.4.0"
 
 vue-loader@^15.7.0:
   version "15.7.0"
